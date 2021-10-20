@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body { /*VERIFICAR, MANTER?*/
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0 10rem 0 10rem;
+}
+
+header .logo {
+    margin: 0 60rem 0 0; /*espaço entre logo e menu*/
+    width: 20rem;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+header nav a {
+    list-style-type: none;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2rem;
+}
+
+header nav .telefone { /*ícone do menu*/
+    width: 2rem;
+}
+
+
+div .welcome {
+    position: relative;
+    color: #ffffff;
+}
+
+div .banner {
+    display: flex;
+    width: 100vw;
+    height: 65vh;
+    filter: brightness(60%)
+}
+
+div .welcomeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #fff;
+    top: 20%;
+    text-align: center 
+
+}
+
+div .welcomeText h1 {
+    margin: 0 35rem;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+div .welcomeText p {
+    margin: 0 50rem 2rem 50rem;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+button {
+    background-color: #F38323;
+    border-radius: 5rem;
+    border: none;
+    color: #ffffff;
+    padding: 1.3rem 3rem;
+    font-size: 1.7rem;
+}
+
+
