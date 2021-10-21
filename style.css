@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 header .logo {
-    margin: 1rem 40rem 1rem 0; /*espaço entre logo e menu*/
+    margin: 1rem 35rem 1rem 0; /*espaço entre logo e menu*/
     width: 15rem;
 }
 
@@ -35,7 +35,7 @@ header nav a {
     list-style-type: none;
     color: #000000;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 a:hover {
@@ -81,6 +81,7 @@ div .welcomeText p {
     margin: 0 28rem 2rem 28rem;
     font-size: 2rem;
     padding: 2rem;
+    font-weight: 300;
 }
 button {
     background-color: #F38323;
@@ -89,6 +90,7 @@ button {
     color: #ffffff;
     padding: 1.3rem 3rem;
     font-size: 1.6rem;
+    font-weight: 700;
     cursor:pointer;
 }
 
@@ -100,7 +102,7 @@ button:hover{
 div.checkinfo {
     display: flex;
     text-align: center;
-    margin: 4rem
+    margin: 3rem 5rem;
 }
 
 div.info1, .info2, .info3, .info4 {
@@ -119,7 +121,7 @@ h2 {
 .checkinfo p {
     color: #000000;
     font-size: 1.4rem;
-    padding: 0 4rem;
+    padding: 0 5rem;
 }
 
 /*Sobre nós*/
